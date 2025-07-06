@@ -73,11 +73,11 @@ pip install -r requirements.txt
     *   `server/uploaded_files/`  (用于存放用户上传的头像、图片和文件)
     *   `client/image_cache/`     (客户端用于临时缓存图片)
     *   `client/file_cache/`      (客户端用于临时缓存文件)
-*   **根目录**: 运行客户端时，请确保根目录中，**config.json**中，**server_ip**和**server_port**与运行服务器端的主机ip，端口一致
+*   **根目录**: 运行时，请确保根目录中，**config.json**中，**server_ip**和**server_port**与运行服务器端的主机ip，端口一致
 ```
     {
-        "server_ip": "10.21.208.45",
-        "server_port": 3333
+        "server_ip": "x.x.x.x",#服务器ip
+        "server_port": x       #服务器开放的端口号
     }
 ```
   

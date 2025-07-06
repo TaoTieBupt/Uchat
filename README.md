@@ -74,11 +74,12 @@ pip install -r requirements.txt
     *   `client/image_cache/`     (客户端用于临时缓存图片)
     *   `client/file_cache/`      (客户端用于临时缓存文件)
 *   **根目录**: 运行客户端时，请确保根目录中，**config.json**中，**server_ip**和**server_port**与运行服务器端的主机ip，端口一致
-  ```bash
+```
     {
         "server_ip": "10.21.208.45",
         "server_port": 3333
-    }```
+    }
+```
   
 ### 4. 运行程序
 
